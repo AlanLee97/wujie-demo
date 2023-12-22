@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <title>subapp-vue2</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <h1>{{msg}}</h1>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      name: 'SubApp-Vue2',
+      data: {
+        msg: 'SubApp-Vue2'
+      }
+    })
+  </script>
+
+  <script>
+    var hello = 'hello wujie'
+  </script>
+  <script>
+    console.log(hello)
+  </script>
+</body>
+
+</html>
